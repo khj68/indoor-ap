@@ -6,7 +6,7 @@ export const NaverAPIMap = (props) => {
 
     return (
         <RenderAfterNavermapsLoaded 
-            ncpClientId = {"OxFovswFBqRfrQfEjbyH0Hud70ypZTzXjErEguRy"}
+            clientId = {"OxFovswFBqRfrQfEjbyH0Hud70ypZTzXjErEguRy"}
             error = {<p>Maps Load Error</p>}
             loading = {<p>Maps Loading...</p>}
         >

@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import NaverAPIMap from './Map';
 import * as serviceWorker from './serviceWorker';
+import { RenderAfterNavermapsLoaded, NaverMap } from 'react-naver-maps'
 
 ReactDOM.render(
   <React.StrictMode>
