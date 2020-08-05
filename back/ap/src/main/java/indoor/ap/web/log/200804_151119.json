@@ -1,0 +1,925 @@
+[ {
+  "latLng" : {
+    "latitude" : 37.510907,
+    "longitude" : 127.0598133,
+    "valid" : true,
+    "withinCoverage" : true
+  },
+  "wifiScanResults" : [ {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 5755,
+    "centerFreq1" : 0,
+    "channelWidth" : 1,
+    "frequency" : 5745,
+    "rssi" : -54,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15428242306,
+    "venueName" : "",
+    "bssid" : "0a:08:52:31:ee:13",
+    "ssid" : "FREE_U+zone",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[WPA2-EAP-CCMP][RSN-EAP-CCMP][ESS]",
+    "centerFreq0" : 5755,
+    "centerFreq1" : 0,
+    "channelWidth" : 1,
+    "frequency" : 5745,
+    "rssi" : -55,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15428242293,
+    "venueName" : "",
+    "bssid" : "0a:08:52:31:ee:12",
+    "ssid" : "U+zone",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 0,
+    "centerFreq1" : 0,
+    "channelWidth" : 0,
+    "frequency" : 2452,
+    "rssi" : -55,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15428242743,
+    "venueName" : "",
+    "bssid" : "10:e3:c7:09:cf:ee",
+    "ssid" : "T wifi zone",
+    "80211McRttResponder" : true
+  } ],
+  "cellInfo" : [ {
+    "cellIdentity" : {
+      "bandwidth" : 2147483647,
+      "ci" : 7265411,
+      "earfcn" : 2850,
+      "mcc" : 450,
+      "mccString" : "450",
+      "mnc" : 5,
+      "mncString" : "05",
+      "mobileNetworkOperator" : "45005",
+      "pci" : 62,
+      "tac" : 8466,
+      "operatorAlphaLong" : "SKTelecom",
+      "operatorAlphaShort" : "SKTelecom"
+    },
+    "cellSignalStrength" : {
+      "asuLevel" : 52,
+      "cqi" : 12,
+      "dbm" : -88,
+      "level" : 2,
+      "rsrp" : -88,
+      "rsrq" : -7,
+      "rssi" : 2147483647,
+      "rssnr" : 12,
+      "timingAdvance" : 5
+    },
+    "cellConnectionStatus" : 0,
+    "timeStamp" : 15428382262367,
+    "registered" : true
+  } ]
+}, {
+  "latLng" : {
+    "latitude" : 37.510987,
+    "longitude" : 127.059768,
+    "valid" : true,
+    "withinCoverage" : true
+  },
+  "wifiScanResults" : [ {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 0,
+    "centerFreq1" : 0,
+    "channelWidth" : 0,
+    "frequency" : 2472,
+    "rssi" : -46,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15437803568,
+    "venueName" : "",
+    "bssid" : "00:23:aa:99:86:c0",
+    "ssid" : "T wifi zone",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 0,
+    "centerFreq1" : 0,
+    "channelWidth" : 0,
+    "frequency" : 2472,
+    "rssi" : -46,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15437803604,
+    "venueName" : "",
+    "bssid" : "06:23:aa:99:86:c3",
+    "ssid" : "T Free WiFi Zone",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[WPA2-EAP-CCMP][RSN-EAP-CCMP][ESS]",
+    "centerFreq0" : 0,
+    "centerFreq1" : 0,
+    "channelWidth" : 0,
+    "frequency" : 2472,
+    "rssi" : -47,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15437803598,
+    "venueName" : "",
+    "bssid" : "06:23:aa:99:86:c2",
+    "ssid" : "T wifi zone_secure",
+    "80211McRttResponder" : false
+  } ],
+  "cellInfo" : [ {
+    "cellIdentity" : {
+      "bandwidth" : 2147483647,
+      "ci" : 7265411,
+      "earfcn" : 2850,
+      "mcc" : 450,
+      "mccString" : "450",
+      "mnc" : 5,
+      "mncString" : "05",
+      "mobileNetworkOperator" : "45005",
+      "pci" : 62,
+      "tac" : 8466,
+      "operatorAlphaLong" : "SKTelecom",
+      "operatorAlphaShort" : "SKTelecom"
+    },
+    "cellSignalStrength" : {
+      "asuLevel" : 60,
+      "cqi" : 15,
+      "dbm" : -80,
+      "level" : 2,
+      "rsrp" : -80,
+      "rsrq" : -7,
+      "rssi" : 2147483647,
+      "rssnr" : 30,
+      "timingAdvance" : 5
+    },
+    "cellConnectionStatus" : 0,
+    "timeStamp" : 15437887952783,
+    "registered" : true
+  } ]
+}, {
+  "latLng" : {
+    "latitude" : 37.511037,
+    "longitude" : 127.0597396,
+    "valid" : true,
+    "withinCoverage" : true
+  },
+  "wifiScanResults" : [ {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 0,
+    "centerFreq1" : 0,
+    "channelWidth" : 0,
+    "frequency" : 2452,
+    "rssi" : -50,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15443192437,
+    "venueName" : "",
+    "bssid" : "06:09:b4:75:c5:63",
+    "ssid" : "KT_Free_WiFi",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[WPA2-EAP-CCMP+TKIP][RSN-EAP-CCMP+TKIP][WPA-EAP-CCMP+TKIP][ESS]",
+    "centerFreq0" : 0,
+    "centerFreq1" : 0,
+    "channelWidth" : 0,
+    "frequency" : 2452,
+    "rssi" : -50,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15443192525,
+    "venueName" : "",
+    "bssid" : "0e:09:b4:75:c5:63",
+    "ssid" : "KT WiFi",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 0,
+    "centerFreq1" : 0,
+    "channelWidth" : 0,
+    "frequency" : 2472,
+    "rssi" : -51,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15443192587,
+    "venueName" : "",
+    "bssid" : "00:23:aa:99:86:c0",
+    "ssid" : "T wifi zone",
+    "80211McRttResponder" : false
+  } ],
+  "cellInfo" : [ {
+    "cellIdentity" : {
+      "bandwidth" : 2147483647,
+      "ci" : 7265411,
+      "earfcn" : 2850,
+      "mcc" : 450,
+      "mccString" : "450",
+      "mnc" : 5,
+      "mncString" : "05",
+      "mobileNetworkOperator" : "45005",
+      "pci" : 62,
+      "tac" : 8466,
+      "operatorAlphaLong" : "SKTelecom",
+      "operatorAlphaShort" : "SKTelecom"
+    },
+    "cellSignalStrength" : {
+      "asuLevel" : 57,
+      "cqi" : 15,
+      "dbm" : -83,
+      "level" : 2,
+      "rsrp" : -83,
+      "rsrq" : -7,
+      "rssi" : 2147483647,
+      "rssnr" : 29,
+      "timingAdvance" : 5
+    },
+    "cellConnectionStatus" : 0,
+    "timeStamp" : 15443302118548,
+    "registered" : true
+  } ]
+}, {
+  "latLng" : {
+    "latitude" : 37.511097,
+    "longitude" : 127.0597056,
+    "valid" : true,
+    "withinCoverage" : true
+  },
+  "wifiScanResults" : [ {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 5530,
+    "centerFreq1" : 0,
+    "channelWidth" : 2,
+    "frequency" : 5520,
+    "rssi" : -53,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15448620168,
+    "venueName" : "",
+    "bssid" : "06:09:b4:75:c5:64",
+    "ssid" : "KT_Free_WiFi",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 5530,
+    "centerFreq1" : 0,
+    "channelWidth" : 2,
+    "frequency" : 5520,
+    "rssi" : -53,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15448620172,
+    "venueName" : "",
+    "bssid" : "0a:09:b4:75:c5:64",
+    "ssid" : "1旅客_免費/無料/Free_Wi-Fi",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 5530,
+    "centerFreq1" : 0,
+    "channelWidth" : 2,
+    "frequency" : 5520,
+    "rssi" : -53,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15448620181,
+    "venueName" : "",
+    "bssid" : "12:09:b4:75:c5:64",
+    "ssid" : "KT WiFi ",
+    "80211McRttResponder" : false
+  } ],
+  "cellInfo" : [ {
+    "cellIdentity" : {
+      "bandwidth" : 2147483647,
+      "ci" : 7265411,
+      "earfcn" : 2850,
+      "mcc" : 450,
+      "mccString" : "450",
+      "mnc" : 5,
+      "mncString" : "05",
+      "mobileNetworkOperator" : "45005",
+      "pci" : 62,
+      "tac" : 8466,
+      "operatorAlphaLong" : "SKTelecom",
+      "operatorAlphaShort" : "SKTelecom"
+    },
+    "cellSignalStrength" : {
+      "asuLevel" : 45,
+      "cqi" : 2147483647,
+      "dbm" : -95,
+      "level" : 2,
+      "rsrp" : -95,
+      "rsrq" : -6,
+      "rssi" : 2147483647,
+      "rssnr" : 24,
+      "timingAdvance" : 5
+    },
+    "cellConnectionStatus" : 0,
+    "timeStamp" : 15448730741775,
+    "registered" : true
+  } ]
+}, {
+  "latLng" : {
+    "latitude" : 37.511147,
+    "longitude" : 127.0596772,
+    "valid" : true,
+    "withinCoverage" : true
+  },
+  "wifiScanResults" : [ {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 5775,
+    "centerFreq1" : 0,
+    "channelWidth" : 2,
+    "frequency" : 5745,
+    "rssi" : -50,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15454086099,
+    "venueName" : "",
+    "bssid" : "00:23:aa:99:86:d0",
+    "ssid" : "T wifi zone",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[WPA2-EAP-CCMP][RSN-EAP-CCMP][ESS]",
+    "centerFreq0" : 5775,
+    "centerFreq1" : 0,
+    "channelWidth" : 2,
+    "frequency" : 5745,
+    "rssi" : -51,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15454086106,
+    "venueName" : "",
+    "bssid" : "0a:23:aa:99:86:d2",
+    "ssid" : "T wifi zone_secure",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 5775,
+    "centerFreq1" : 0,
+    "channelWidth" : 2,
+    "frequency" : 5745,
+    "rssi" : -52,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15454086113,
+    "venueName" : "",
+    "bssid" : "0a:23:aa:99:86:d3",
+    "ssid" : "T Free WiFi Zone",
+    "80211McRttResponder" : false
+  } ],
+  "cellInfo" : [ {
+    "cellIdentity" : {
+      "bandwidth" : 2147483647,
+      "ci" : 7265411,
+      "earfcn" : 2850,
+      "mcc" : 450,
+      "mccString" : "450",
+      "mnc" : 5,
+      "mncString" : "05",
+      "mobileNetworkOperator" : "45005",
+      "pci" : 62,
+      "tac" : 8466,
+      "operatorAlphaLong" : "SKTelecom",
+      "operatorAlphaShort" : "SKTelecom"
+    },
+    "cellSignalStrength" : {
+      "asuLevel" : 50,
+      "cqi" : 14,
+      "dbm" : -90,
+      "level" : 1,
+      "rsrp" : -90,
+      "rsrq" : -6,
+      "rssi" : 2147483647,
+      "rssnr" : -4,
+      "timingAdvance" : 5
+    },
+    "cellConnectionStatus" : 0,
+    "timeStamp" : 15454198996579,
+    "registered" : true
+  } ]
+}, {
+  "latLng" : {
+    "latitude" : 37.511207,
+    "longitude" : 127.0596432,
+    "valid" : true,
+    "withinCoverage" : true
+  },
+  "wifiScanResults" : [ {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 0,
+    "centerFreq1" : 0,
+    "channelWidth" : 0,
+    "frequency" : 2412,
+    "rssi" : -57,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15459409246,
+    "venueName" : "",
+    "bssid" : "00:23:aa:99:81:00",
+    "ssid" : "T wifi zone",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[WPA2-EAP-CCMP][RSN-EAP-CCMP][ESS]",
+    "centerFreq0" : 0,
+    "centerFreq1" : 0,
+    "channelWidth" : 0,
+    "frequency" : 2412,
+    "rssi" : -57,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15459409252,
+    "venueName" : "",
+    "bssid" : "06:23:aa:99:81:02",
+    "ssid" : "T wifi zone_secure",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 0,
+    "centerFreq1" : 0,
+    "channelWidth" : 0,
+    "frequency" : 2412,
+    "rssi" : -58,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15459409256,
+    "venueName" : "",
+    "bssid" : "06:23:aa:99:81:03",
+    "ssid" : "T Free WiFi Zone",
+    "80211McRttResponder" : false
+  } ],
+  "cellInfo" : [ {
+    "cellIdentity" : {
+      "bandwidth" : 2147483647,
+      "ci" : 7265411,
+      "earfcn" : 2850,
+      "mcc" : 450,
+      "mccString" : "450",
+      "mnc" : 5,
+      "mncString" : "05",
+      "mobileNetworkOperator" : "45005",
+      "pci" : 62,
+      "tac" : 8466,
+      "operatorAlphaLong" : "SKTelecom",
+      "operatorAlphaShort" : "SKTelecom"
+    },
+    "cellSignalStrength" : {
+      "asuLevel" : 56,
+      "cqi" : 15,
+      "dbm" : -84,
+      "level" : 2,
+      "rsrp" : -84,
+      "rsrq" : -7,
+      "rssi" : 2147483647,
+      "rssnr" : 23,
+      "timingAdvance" : 5
+    },
+    "cellConnectionStatus" : 0,
+    "timeStamp" : 15459522650460,
+    "registered" : true
+  } ]
+}, {
+  "latLng" : {
+    "latitude" : 37.511257,
+    "longitude" : 127.0596149,
+    "valid" : true,
+    "withinCoverage" : true
+  },
+  "wifiScanResults" : [ {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 5775,
+    "centerFreq1" : 0,
+    "channelWidth" : 2,
+    "frequency" : 5745,
+    "rssi" : -56,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15464796312,
+    "venueName" : "",
+    "bssid" : "0a:23:aa:99:81:13",
+    "ssid" : "T Free WiFi Zone",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[WPA2-EAP-CCMP][RSN-EAP-CCMP][ESS]",
+    "centerFreq0" : 0,
+    "centerFreq1" : 0,
+    "channelWidth" : 0,
+    "frequency" : 2412,
+    "rssi" : -56,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15464796230,
+    "venueName" : "",
+    "bssid" : "06:23:aa:99:81:02",
+    "ssid" : "T wifi zone_secure",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 0,
+    "centerFreq1" : 0,
+    "channelWidth" : 0,
+    "frequency" : 2412,
+    "rssi" : -56,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15464796233,
+    "venueName" : "",
+    "bssid" : "06:23:aa:99:81:03",
+    "ssid" : "T Free WiFi Zone",
+    "80211McRttResponder" : false
+  } ],
+  "cellInfo" : [ {
+    "cellIdentity" : {
+      "bandwidth" : 2147483647,
+      "ci" : 7265411,
+      "earfcn" : 2850,
+      "mcc" : 450,
+      "mccString" : "450",
+      "mnc" : 5,
+      "mncString" : "05",
+      "mobileNetworkOperator" : "45005",
+      "pci" : 62,
+      "tac" : 8466,
+      "operatorAlphaLong" : "SKTelecom",
+      "operatorAlphaShort" : "SKTelecom"
+    },
+    "cellSignalStrength" : {
+      "asuLevel" : 53,
+      "cqi" : 2147483647,
+      "dbm" : -87,
+      "level" : 2,
+      "rsrp" : -87,
+      "rsrq" : -10,
+      "rssi" : 2147483647,
+      "rssnr" : 22,
+      "timingAdvance" : 5
+    },
+    "cellConnectionStatus" : 0,
+    "timeStamp" : 15464904608456,
+    "registered" : true
+  } ]
+}, {
+  "latLng" : {
+    "latitude" : 37.511317,
+    "longitude" : 127.0595808,
+    "valid" : true,
+    "withinCoverage" : true
+  },
+  "wifiScanResults" : [ {
+    "capabilities" : "[WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]",
+    "centerFreq0" : 5310,
+    "centerFreq1" : 0,
+    "channelWidth" : 1,
+    "frequency" : 5320,
+    "rssi" : -57,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15470224416,
+    "venueName" : "",
+    "bssid" : "c0:ff:d4:c4:ba:70",
+    "ssid" : "ypbook",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 0,
+    "centerFreq1" : 0,
+    "channelWidth" : 0,
+    "frequency" : 2412,
+    "rssi" : -59,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15470224013,
+    "venueName" : "",
+    "bssid" : "00:23:aa:99:81:00",
+    "ssid" : "T wifi zone",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[WPA2-EAP-CCMP][RSN-EAP-CCMP][ESS]",
+    "centerFreq0" : 5775,
+    "centerFreq1" : 0,
+    "channelWidth" : 2,
+    "frequency" : 5745,
+    "rssi" : -61,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15470224133,
+    "venueName" : "",
+    "bssid" : "0a:23:aa:99:81:12",
+    "ssid" : "T wifi zone_secure",
+    "80211McRttResponder" : false
+  } ],
+  "cellInfo" : [ {
+    "cellIdentity" : {
+      "bandwidth" : 2147483647,
+      "ci" : 7265411,
+      "earfcn" : 2850,
+      "mcc" : 450,
+      "mccString" : "450",
+      "mnc" : 5,
+      "mncString" : "05",
+      "mobileNetworkOperator" : "45005",
+      "pci" : 62,
+      "tac" : 8466,
+      "operatorAlphaLong" : "SKTelecom",
+      "operatorAlphaShort" : "SKTelecom"
+    },
+    "cellSignalStrength" : {
+      "asuLevel" : 44,
+      "cqi" : 2147483647,
+      "dbm" : -96,
+      "level" : 2,
+      "rsrp" : -96,
+      "rsrq" : -8,
+      "rssi" : 2147483647,
+      "rssnr" : 18,
+      "timingAdvance" : 5
+    },
+    "cellConnectionStatus" : 0,
+    "timeStamp" : 15470349863144,
+    "registered" : true
+  } ]
+}, {
+  "latLng" : {
+    "latitude" : 37.511397,
+    "longitude" : 127.0595355,
+    "valid" : true,
+    "withinCoverage" : true
+  },
+  "wifiScanResults" : [ {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 5210,
+    "centerFreq1" : 0,
+    "channelWidth" : 2,
+    "frequency" : 5200,
+    "rssi" : -53,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15479889392,
+    "venueName" : "",
+    "bssid" : "12:09:b4:75:c8:f4",
+    "ssid" : "KT GiGA WiFi ",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[WPA2-EAP-CCMP][RSN-EAP-CCMP][ESS]",
+    "centerFreq0" : 0,
+    "centerFreq1" : 0,
+    "channelWidth" : 0,
+    "frequency" : 2412,
+    "rssi" : -54,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15479889304,
+    "venueName" : "",
+    "bssid" : "06:23:aa:99:81:02",
+    "ssid" : "T wifi zone_secure",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 0,
+    "centerFreq1" : 0,
+    "channelWidth" : 0,
+    "frequency" : 2412,
+    "rssi" : -54,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15479889307,
+    "venueName" : "",
+    "bssid" : "06:23:aa:99:81:03",
+    "ssid" : "T Free WiFi Zone",
+    "80211McRttResponder" : false
+  } ],
+  "cellInfo" : [ {
+    "cellIdentity" : {
+      "bandwidth" : 2147483647,
+      "ci" : 7265411,
+      "earfcn" : 2850,
+      "mcc" : 450,
+      "mccString" : "450",
+      "mnc" : 5,
+      "mncString" : "05",
+      "mobileNetworkOperator" : "45005",
+      "pci" : 62,
+      "tac" : 8466,
+      "operatorAlphaLong" : "SKTelecom",
+      "operatorAlphaShort" : "SKTelecom"
+    },
+    "cellSignalStrength" : {
+      "asuLevel" : 43,
+      "cqi" : 2147483647,
+      "dbm" : -97,
+      "level" : 2,
+      "rsrp" : -97,
+      "rsrq" : -8,
+      "rssi" : 2147483647,
+      "rssnr" : 21,
+      "timingAdvance" : 5
+    },
+    "cellConnectionStatus" : 0,
+    "timeStamp" : 15480019904022,
+    "registered" : true
+  } ]
+}, {
+  "latLng" : {
+    "latitude" : 37.511457,
+    "longitude" : 127.0595014,
+    "valid" : true,
+    "withinCoverage" : true
+  },
+  "wifiScanResults" : [ {
+    "capabilities" : "[WPA2-PSK-CCMP][RSN-PSK-CCMP][ESS]",
+    "centerFreq0" : 0,
+    "centerFreq1" : 0,
+    "channelWidth" : 0,
+    "frequency" : 2437,
+    "rssi" : -58,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15485278896,
+    "venueName" : "",
+    "bssid" : "24:d1:3f:10:69:9f",
+    "ssid" : "mLTE8437",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 5210,
+    "centerFreq1" : 0,
+    "channelWidth" : 2,
+    "frequency" : 5200,
+    "rssi" : -60,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15485278691,
+    "venueName" : "",
+    "bssid" : "12:09:b4:75:c8:f4",
+    "ssid" : "KT GiGA WiFi ",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 0,
+    "centerFreq1" : 0,
+    "channelWidth" : 0,
+    "frequency" : 2472,
+    "rssi" : -60,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15485279165,
+    "venueName" : "",
+    "bssid" : "0a:09:b4:75:c8:f3",
+    "ssid" : "KT WiFi ",
+    "80211McRttResponder" : false
+  } ],
+  "cellInfo" : [ {
+    "cellIdentity" : {
+      "bandwidth" : 2147483647,
+      "ci" : 7265411,
+      "earfcn" : 2850,
+      "mcc" : 450,
+      "mccString" : "450",
+      "mnc" : 5,
+      "mncString" : "05",
+      "mobileNetworkOperator" : "45005",
+      "pci" : 62,
+      "tac" : 8466,
+      "operatorAlphaLong" : "SKTelecom",
+      "operatorAlphaShort" : "SKTelecom"
+    },
+    "cellSignalStrength" : {
+      "asuLevel" : 42,
+      "cqi" : 2147483647,
+      "dbm" : -98,
+      "level" : 2,
+      "rsrp" : -98,
+      "rsrq" : -8,
+      "rssi" : 2147483647,
+      "rssnr" : 24,
+      "timingAdvance" : 5
+    },
+    "cellConnectionStatus" : 0,
+    "timeStamp" : 15485396366018,
+    "registered" : true
+  } ]
+}, {
+  "latLng" : {
+    "latitude" : 37.511507,
+    "longitude" : 127.0594731,
+    "valid" : true,
+    "withinCoverage" : true
+  },
+  "wifiScanResults" : [ {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 5270,
+    "centerFreq1" : 0,
+    "channelWidth" : 1,
+    "frequency" : 5280,
+    "rssi" : -53,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15490641592,
+    "venueName" : "",
+    "bssid" : "0a:90:a2:6b:e4:61",
+    "ssid" : "Data",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 5270,
+    "centerFreq1" : 0,
+    "channelWidth" : 1,
+    "frequency" : 5280,
+    "rssi" : -53,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15490641603,
+    "venueName" : "",
+    "bssid" : "0a:90:a2:6b:e4:63",
+    "ssid" : "FREE_U+zone",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[WPA2-EAP-CCMP][RSN-EAP-CCMP][ESS]",
+    "centerFreq0" : 5270,
+    "centerFreq1" : 0,
+    "channelWidth" : 1,
+    "frequency" : 5280,
+    "rssi" : -54,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15490641597,
+    "venueName" : "",
+    "bssid" : "0a:90:a2:6b:e4:62",
+    "ssid" : "U+zone",
+    "80211McRttResponder" : false
+  } ],
+  "cellInfo" : [ {
+    "cellIdentity" : {
+      "bandwidth" : 2147483647,
+      "ci" : 7265411,
+      "earfcn" : 2850,
+      "mcc" : 450,
+      "mccString" : "450",
+      "mnc" : 5,
+      "mncString" : "05",
+      "mobileNetworkOperator" : "45005",
+      "pci" : 62,
+      "tac" : 8466,
+      "operatorAlphaLong" : "SKTelecom",
+      "operatorAlphaShort" : "SKTelecom"
+    },
+    "cellSignalStrength" : {
+      "asuLevel" : 51,
+      "cqi" : 14,
+      "dbm" : -89,
+      "level" : 2,
+      "rsrp" : -89,
+      "rsrq" : -8,
+      "rssi" : 2147483647,
+      "rssnr" : 24,
+      "timingAdvance" : 6
+    },
+    "cellConnectionStatus" : 0,
+    "timeStamp" : 15490781037053,
+    "registered" : true
+  } ]
+}, {
+  "latLng" : {
+    "latitude" : 37.511557,
+    "longitude" : 127.0594447,
+    "valid" : true,
+    "withinCoverage" : true
+  },
+  "wifiScanResults" : [ {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 5270,
+    "centerFreq1" : 0,
+    "channelWidth" : 1,
+    "frequency" : 5280,
+    "rssi" : -54,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15496069247,
+    "venueName" : "",
+    "bssid" : "0a:90:a2:6b:e4:61",
+    "ssid" : "Data",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[WPA2-EAP-CCMP][RSN-EAP-CCMP][ESS]",
+    "centerFreq0" : 5270,
+    "centerFreq1" : 0,
+    "channelWidth" : 1,
+    "frequency" : 5280,
+    "rssi" : -54,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15496069254,
+    "venueName" : "",
+    "bssid" : "0a:90:a2:6b:e4:62",
+    "ssid" : "U+zone",
+    "80211McRttResponder" : false
+  }, {
+    "capabilities" : "[ESS]",
+    "centerFreq0" : 5270,
+    "centerFreq1" : 0,
+    "channelWidth" : 1,
+    "frequency" : 5280,
+    "rssi" : -54,
+    "operatorFriendlyName" : "",
+    "timestamp" : 15496069263,
+    "venueName" : "",
+    "bssid" : "0a:90:a2:6b:e4:63",
+    "ssid" : "FREE_U+zone",
+    "80211McRttResponder" : false
+  } ],
+  "cellInfo" : [ {
+    "cellIdentity" : {
+      "bandwidth" : 2147483647,
+      "ci" : 7265411,
+      "earfcn" : 2850,
+      "mcc" : 450,
+      "mccString" : "450",
+      "mnc" : 5,
+      "mncString" : "05",
+      "mobileNetworkOperator" : "45005",
+      "pci" : 62,
+      "tac" : 8466,
+      "operatorAlphaLong" : "SKTelecom",
+      "operatorAlphaShort" : "SKTelecom"
+    },
+    "cellSignalStrength" : {
+      "asuLevel" : 50,
+      "cqi" : 15,
+      "dbm" : -90,
+      "level" : 2,
+      "rsrp" : -90,
+      "rsrq" : -7,
+      "rssi" : 2147483647,
+      "rssnr" : 24,
+      "timingAdvance" : 6
+    },
+    "cellConnectionStatus" : 0,
+    "timeStamp" : 15496187035703,
+    "registered" : true
+  } ]
+} ]
