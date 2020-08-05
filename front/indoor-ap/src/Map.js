@@ -25,7 +25,7 @@ export const NaverAPIMap = (props) => {
                             key={idx}
                             position={{lat: ele.lat, lng: ele.lng}}
                             animation={2}
-                            onClick{() => {
+                            onClick = {() => {
                                 alert('hello');
                             }}
                         />
