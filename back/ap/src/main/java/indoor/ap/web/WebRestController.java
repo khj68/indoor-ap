@@ -19,7 +19,11 @@ public class WebRestController {
     public JSONArray parse() {
         JSONArray err = new JSONArray();
         try{
+            JSONArray retArray = new JSONArray();
+
+            
             Object obj = parser.parse(new FileReader("C:\\Users\\SKTelecom\\Desktop\\jobs\\IN\\indoor-ap\\back\\ap\\src\\main\\java\\indoor\\ap\\web\\log\\200804_150811.json"));
+            JSONObject retObject = new JSONObject();
 
             JSONArray jsonArray = (JSONArray) obj;
             JSONObject jsonObject = new JSONObject();
@@ -31,6 +35,9 @@ public class WebRestController {
                 System.out.print(latLng.get("latitude")+" ");
                 System.out.println(latLng.get("longitude"));
 
+                retObject.put("lat", latLng.get("latitude"));
+                retObject.put("lng", latLng.get("longitude"));
+                
                 JSONArray wifies = (JSONArray)jsonObject.get("wifiScanResults");
                 JSONObject wifi = new JSONObject();
                 for(int j=0; j<wifies.size(); j++){
@@ -40,9 +47,11 @@ public class WebRestController {
                     System.out.println("rssi: "+wifi.get("rssi"));
                     System.out.println("timestamp: "+wifi.get("timestamp"));
                 }
+
+                retArray.add(retObject);
             }
 
-            return jsonArray;
+            return retArray;
 
 
         } catch(Exception e) {

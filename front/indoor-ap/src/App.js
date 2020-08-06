@@ -73,8 +73,6 @@ class App extends Component {
         <NaverMapAPI />
         <CircleAPI />
       </RenderAfterNavermapsLoaded>
-    {/* <h1>{logList.length}</h1> */}
-      {/* <h1>{users.map(user => <div>{user}</div>)}h2</h1> */}
       <button onClick={this.stateChange}>btn</button>
       <h1>데이터 : {this.state.data}</h1>
       </div>
