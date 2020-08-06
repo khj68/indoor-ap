@@ -23,11 +23,12 @@ public class WebRestController {
 
             
             Object obj = parser.parse(new FileReader("C:\\Users\\SKTelecom\\Desktop\\jobs\\IN\\indoor-ap\\back\\ap\\src\\main\\java\\indoor\\ap\\web\\log\\200804_150811.json"));
-            JSONObject retObject = new JSONObject();
 
             JSONArray jsonArray = (JSONArray) obj;
             JSONObject jsonObject = new JSONObject();
             for(int i=0; i<jsonArray.size(); i++) {
+                JSONObject retObject = new JSONObject();
+
                 jsonObject = (JSONObject)jsonArray.get(i);
                 System.out.println();
                 System.out.println(i);

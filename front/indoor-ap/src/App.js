@@ -8,7 +8,7 @@ function CircleAPI(props) {
   return (
     <Circle
       center={{ lat: props.lat, lng: props.lng }}
-      radius={1}
+      radius={0.5}
       fillOpacity={0.5}
       fillColor={'#FF0000'}
       strokeColor={'red'}
@@ -22,46 +22,47 @@ function CircleAPI(props) {
 
 
 
-function NaverMapAPI() {
-  return (
-    <NaverMap
-      mapDivId={'map'}
-      style={{
-        width: '100%',
-        height: '85vh'
-      }}
-      defaultCenter = {{ lat: 37.511345, lng: 127.059788 }}
-      defaultZoom={19}
-    >
-    <CircleAPI lat='37.511345' lng='127.059788' />
-    <CircleAPI lat='37.511395' lng='127.059788' />
-    <CircleAPI lat='37.511445' lng='127.059788' />
-    <CircleAPI lat='37.511495' lng='127.059788' />
-    <CircleAPI lat='37.511545' lng='127.059788' />
-    <CircleAPI lat='37.511595' lng='127.059788' />
-    <CircleAPI lat='37.511645' lng='127.059788' />
-    <CircleAPI lat='37.511695' lng='127.059788' />
-    </NaverMap>
-  )
+class NaverMapAPI extends Component{
+  state = {
+    SpotList : []
+  }
+
+  loadSpot = async () => {
+    axios.get('http://localhost:8080/parse')
+          .then((res) => {
+            this.setState({
+              SpotList: res.data
+            })
+          })
+          .catch(e => console.error(e))
+  }
+
+  componentDidMount(){
+    this.loadSpot();
+  }
+
+  render() {
+    const {SpotList} = this.state
+    console.log(SpotList); 
+    return (
+      <NaverMap
+        mapDivId={'map'}
+        style={{
+          width: '100%',
+          height: '85vh'
+        }}
+        defaultCenter = {{ lat: 37.511345, lng: 127.059788 }}
+        defaultZoom={19}
+      >
+      <div>{SpotList.map(data => <CircleAPI lat={data.lat} lng={data.lng} />)}</div>
+      </NaverMap>
+    )
+  }
 }
 
 
 
 class App extends Component {
-  state = {
-    data: null
-  }
-
-  stateChange = () => {
-    let response = axios.get('http://localhost:8080/parse')
-                        .then(res => {
-                          console.log(res.data)
-                          return res.data
-                        })
-    this.setState({
-      data: response
-    })
-  }
   render() {
     return (
       <div>
@@ -73,8 +74,8 @@ class App extends Component {
         <NaverMapAPI />
         <CircleAPI />
       </RenderAfterNavermapsLoaded>
-      <button onClick={this.stateChange}>btn</button>
-      <h1>데이터 : {this.state.data}</h1>
+      {/* <button onClick={this.stateChange}>btn</button> */}
+      
       </div>
     );
   }
