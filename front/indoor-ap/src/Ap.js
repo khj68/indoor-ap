@@ -2,7 +2,7 @@ import React, { useState, useEffect, componentDidMount, useAsync, Component } fr
 import axios from 'axios';
 import { RenderAfterNavermapsLoaded, NaverMap, Circle } from 'react-naver-maps'
 
-class Ap extends Component {
+class ApAPI extends Component {
     state = {
       ApList : []
     }
@@ -10,6 +10,7 @@ class Ap extends Component {
     loadAp = async () => {
       axios.get('http://localhost:8080/ap')
             .then((res) => {
+                console.log(res)
               this.setState({
                 ApList: res.data
               })
@@ -20,16 +21,26 @@ class Ap extends Component {
     componentDidMount(){
       this.loadAp();
     }
+
+    click = () => {
+        return (
+            <div>hi</div>
+        )
+    }
   
     render() {
       const {ApList} = this.state
+      console.log('apap')
       console.log(ApList); 
       return (
         <div>
-        
+            <div>{ApList.map(data => <p>{data.ssid} {data.bssid} {data.rssi}</p>)}</div>
+            <form>
+                <input type="checkbox" name="checkname" value="checkvalue"/*name="isChecked" value="yes" onClick={this.click}*/ />
+            </form>
         </div>
       );
     }
   }
   
-  export default Ap;
+  export default ApAPI;

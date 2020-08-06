@@ -64,9 +64,43 @@ public class WebRestController {
         // return "parsed data";
     }
 
-    @GetMapping("/spot")
-    public String spot() {
-        return "spot data";
+    @GetMapping("/ap")
+    @CrossOrigin
+    public JSONArray spot() {
+        JSONArray err = new JSONArray();
+        try{
+            JSONArray retArray = new JSONArray();
+            
+            Object obj = parser.parse(new FileReader("C:\\Users\\SKTelecom\\Desktop\\jobs\\IN\\indoor-ap\\back\\ap\\src\\main\\java\\indoor\\ap\\web\\log\\200804_150811.json"));
+
+            JSONArray jsonArray = (JSONArray) obj;
+            JSONObject jsonObject = new JSONObject();
+            for(int i=0; i<jsonArray.size(); i++) {
+
+                jsonObject = (JSONObject)jsonArray.get(i);
+                
+                JSONArray wifies = (JSONArray)jsonObject.get("wifiScanResults");
+                JSONObject wifi = new JSONObject();
+                for(int j=0; j<wifies.size(); j++){
+                    JSONObject retObject = new JSONObject();
+                    wifi = (JSONObject)wifies.get(j);
+                    retObject.put("ssid", wifi.get("ssid"));
+                    retObject.put("bssid", wifi.get("bssid"));
+                    retObject.put("rssi", wifi.get("rssi"));
+                    System.out.println("ssid: "+wifi.get("ssid"));
+                    System.out.println("bssid: "+wifi.get("bssid"));
+                    System.out.println("rssi: "+wifi.get("rssi"));
+                    System.out.println("timestamp: "+wifi.get("timestamp"));
+                    retArray.add(retObject);
+                }
+            }
+
+            return retArray;
+
+        } catch(Exception e) {
+            e.printStackTrace();
+            return err;
+        }
     }
     
     @GetMapping("/wifi")

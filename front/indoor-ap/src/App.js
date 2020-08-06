@@ -2,7 +2,7 @@ import React, { useState, useEffect, componentDidMount, useAsync, Component } fr
 import logo from './logo.svg';
 import axios from 'axios';
 import './App.css';
-import Ap from './Ap'
+import ApAPI from './Ap'
 import NaverMapAPI from './NaverMapAPI'
 import { RenderAfterNavermapsLoaded, NaverMap, Circle } from 'react-naver-maps'
 
@@ -17,6 +17,7 @@ class App extends Component {
         >
         <NaverMapAPI />
       </RenderAfterNavermapsLoaded>
+      <ApAPI />
       </div>
     );
   }
