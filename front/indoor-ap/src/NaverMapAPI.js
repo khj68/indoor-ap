@@ -54,16 +54,16 @@ class NaverMapAPI extends Component{
           defaultZoom={19}
         >
         {/* <div>{SpotList.map(data => <CircleAPI lat={data.lat} lng={data.lng} />)}</div> */}
-        <CircleAPI lat='37.511983' lng='127.058754' fillColor='#FF0000' strokeColor='red' radius={0.5}/>
-        <CircleAPI lat='37.511983' lng='127.058754' fillColor='#008000' strokeColor='green' radius={17.6}/>
+        <CircleAPI lat='37.5136218' lng='127.058321' fillColor='#FF0000' strokeColor='red' radius={0.5}/>
+        <CircleAPI lat='37.5136218' lng='127.058321' fillColor='#008000' strokeColor='green' radius={17.6}/>
 
-        <CircleAPI lat='37.5119623' lng='127.058694' fillColor='#FF0000' strokeColor='red' radius={0.5}/>
-        <CircleAPI lat='37.5119623' lng='127.058694' fillColor='#008000' strokeColor='green' radius={23.04}/>
+        <CircleAPI lat='37.5136201' lng='127.058311' fillColor='#FF0000' strokeColor='red' radius={0.5}/>
+        <CircleAPI lat='37.5136201' lng='127.058311' fillColor='#008000' strokeColor='green' radius={23.04}/>
 
-        <CircleAPI lat='37.512035' lng='127.058904' fillColor='#FF0000' strokeColor='red' radius={0.5}/>
-        <CircleAPI lat='37.512035' lng='127.058904' fillColor='#008000' strokeColor='green' radius={30.25}/>
+        <CircleAPI lat='37.5136285' lng='127.058361' fillColor='#FF0000' strokeColor='red' radius={0.5}/>
+        <CircleAPI lat='37.5136285' lng='127.058361' fillColor='#008000' strokeColor='green' radius={30.25}/>
         
-        <CircleAPI lat='37.5119848' lng='127.0587590' fillColor='#000000' strokeColor='blue' radius={0.5}/>
+        <CircleAPI lat='37.5136223' lng='127.0583243' fillColor='#000000' strokeColor='blue' radius={0.5}/>
         </NaverMap>
       )
     }
